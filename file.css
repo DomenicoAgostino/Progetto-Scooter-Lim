@@ -1,0 +1,88 @@
+
+/* Regole generali */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+body > div{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 25px;
+  margin-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  padding: 70px;
+  border-radius: 2%;
+ font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+  color: rgba(0, 255, 0, 1);
+  text-align: center;
+  font-size: 74%;
+  margin: 4.5% 0% 0.5%;
+}
+
+#Logo{
+  width: 20%;
+  height: auto;
+}
+
+nav{
+  background-color: rgba(0, 255, 0, 1);
+  padding: 1%;
+  text-align: center;
+}
+
+nav > button{
+  font-size: 70%;
+}
+
+main{
+  color: white;
+}
+
+section{
+  margin: 3% 0%;
+  font-size: 12px;
+}
+
+section > h2{
+  display: inline-block;
+}
+
+section > p{
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 1%;
+}
+
+section > div{
+height: 25px;
+margin-top: 0.3%;
+border-radius: 5%;
+}
+
+.Indirizzo:before{
+  content: '\21A6';
+}
+
+#gino{
+  background-color: rgba(244, 164, 96, 1);
+  width: 25%;
+}
+
+#mike{
+  background-color: rgba(50, 205, 50, 1);
+  width: 50%;
+}
+
+#fede{
+  background-color: rgba(165, 42, 42, 1);
+  width: 10%;  
+  }
